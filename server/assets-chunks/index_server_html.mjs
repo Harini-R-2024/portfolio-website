@@ -1,6 +1,6 @@
 export default `<!DOCTYPE html>
 <html lang="en">
-<head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><base href="/">
+<head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><base href="/portfolio-website/">
   <meta charset="utf-8">
   <title> Harini Radhakrishnan  | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
