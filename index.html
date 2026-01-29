@@ -1,13 +1,233 @@
 <!DOCTYPE html>
-<html lang="en" data-beasties-container>
-<head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><base href="/portfolio-website/">
-  <meta charset="utf-8">
-  <title> Harini Radhakrishnan  | Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>@font-face{font-family:'Poppins';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;}@font-face{font-family:'Poppins';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Poppins';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;}@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;}@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
-  <link rel="stylesheet" href="styles.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Harini R - Software Developer at Amazon | Full-Stack Developer specializing in Angular, Python, Django, and Java">
+    <title>Harini R - Software Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <app-root></app-root>
-<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-TRWVOOWC.js" type="module"></script></body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Harini R</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight">Harini R</span></h1>
+            <p class="subtitle">Software Developer @ Amazon | Full-Stack Developer | Problem Solver</p>
+            <p class="hero-description">2 years of experience building scalable web applications with Angular, Python, Django, and Java</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Software Developer at Amazon with 2 years of hands-on experience in full-stack development. I graduated in 2023 with a BSc in Statistics Science (87%) from G. Venkataswamy Naidu College.</p>
+                    <p>Currently, I work on Amazon's payment systems across MENAT regions, designing and launching features that impact millions of transactions. I specialize in Angular, Python, Django, and Java, with expertise in statistical analysis and automation to optimize workflows and enhance decision-making.</p>
+                    <p>I'm passionate about building scalable solutions, solving complex problems, and contributing to innovative projects that make a real impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>Angular</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript</li>
+                        <li>DOM Manipulation</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend & Programming</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Django & REST APIs</li>
+                        <li>Core Java & Advanced Java</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Database & Tools</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Snowflake</li>
+                        <li>Git & VS Code</li>
+                        <li>MS Excel</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Methodologies & Soft Skills</h3>
+                    <ul>
+                        <li>Statistical Analysis</li>
+                        <li>Agile & SDLC</li>
+                        <li>Problem Solving</li>
+                        <li>Team Coordination</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="timeline">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Software Development Engineer - 1</h3>
+                        <span class="company">Amazon</span>
+                    </div>
+                    <p class="duration">Aug 2025 - Present | Chennai, Tamil Nadu</p>
+                    <ul class="achievements">
+                        <li>Designed and launched processing fee functionality for partners (Tabby, Tamara) across payment selection and checkout pages, resulting in a 10% increase in checkout conversion rate</li>
+                        <li>Led the launch of a Comparison Table on the detail page to differentiate partner installment offers, driving a 12% improvement in feature adoption and customer satisfaction</li>
+                        <li>Onboarded 20+ new financing plans for multiple partners, expanding payment flexibility across MENAT regions</li>
+                        <li>Contributed to international product launches in UAE, KSA, and Egypt, ensuring compliance with local payment systems</li>
+                        <li>Resolved high-impact production issues, reducing downtime by 20% and ensuring timely, high-quality releases</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Software Engineer - 1</h3>
+                        <span class="company">Fidelity Investments</span>
+                    </div>
+                    <p class="duration">Mar 2024 - Mar 2025</p>
+                    <ul class="achievements">
+                        <li>Streamlined data reconciliation processes, reducing manual efforts through intelligent automation</li>
+                        <li>Developed dynamic user interfaces using Angular, ensuring seamless user experiences</li>
+                        <li>Designed and implemented backend systems with Django for robust data handling and API integrations</li>
+                        <li>Built intelligent search and filtering functionalities, enhancing data retrieval efficiency</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Trainee</h3>
+                        <span class="company">Uniq Technologies</span>
+                    </div>
+                    <p class="duration">Jan 2022 - Dec 2022</p>
+                    <ul class="achievements">
+                        <li>Developed a smart railway reservation system with ML-based ticket availability prediction</li>
+                        <li>Integrated real-time updates and personalized recommendations</li>
+                        <li>Designed an intuitive user-friendly interface for seamless booking and seat allocation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Data Recon Engine</h3>
+                    <p>An intelligent data reconciliation system that automates manual processes and streamlines data validation workflows. Built with Django backend and Angular frontend for seamless data handling.</p>
+                    <div class="project-tags">
+                        <span>Angular</span>
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>SQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/harinir1234" class="btn-link">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Railway Reservation System</h3>
+                    <p>ML-based smart railway reservation system that predicts ticket availability, optimizes pricing models, and provides real-time updates with personalized recommendations for enhanced passenger experience.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Django</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/harinir1234" class="btn-link">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Web Application</h3>
+                    <p>A modern, responsive personal portfolio website showcasing professional experience, technical skills, and projects with smooth animations and intuitive navigation.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/harinir1234" class="btn-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">I'm always open to discussing new projects, opportunities, or collaborations.</p>
+            <div class="contact-methods">
+                <a href="mailto:hariniradhakrishnan1234@gmail.com" class="contact-item">
+                    <span class="icon">✉️</span>
+                    <span>hariniradhakrishnan1234@gmail.com</span>
+                </a>
+                <a href="tel:+919487064274" class="contact-item">
+                    <span class="icon">📱</span>
+                    <span>+91 9487064274</span>
+                </a>
+                <a href="https://www.linkedin.com/in/harini-r-b2a2a0250" class="contact-item" target="_blank" rel="noopener">
+                    <span class="icon">💼</span>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/harinir1234" class="contact-item" target="_blank" rel="noopener">
+                    <span class="icon">🔗</span>
+                    <span>GitHub</span>
+                </a>
+                <a href="resume.pdf" class="contact-item" download>
+                    <span class="icon">📄</span>
+                    <span>Download Resume</span>
+                </a>
+            </div>
+            <div class="location">
+                <p>📍 Chennai, Tamil Nadu, India</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Harini R. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
