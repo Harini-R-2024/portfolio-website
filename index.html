@@ -60,39 +60,39 @@
             <h2>Technical Skills</h2>
             <div class="skills-grid">
                 <div class="skill-card">
-                    <h3>Frontend</h3>
+                    <h3>Frontend Development</h3>
                     <ul>
-                        <li>Angular</li>
+                        <li>Angular & TypeScript</li>
                         <li>HTML5 & CSS3</li>
-                        <li>JavaScript</li>
-                        <li>DOM Manipulation</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Responsive Design</li>
                     </ul>
                 </div>
                 <div class="skill-card">
                     <h3>Backend & Programming</h3>
                     <ul>
-                        <li>Python</li>
-                        <li>Django & REST APIs</li>
-                        <li>Core Java & Advanced Java</li>
-                        <li>SQL</li>
+                        <li>Java (Core & Advanced)</li>
+                        <li>Python & Django</li>
+                        <li>REST APIs & Microservices</li>
+                        <li>SQL & Database Design</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Cloud & Infrastructure</h3>
+                    <ul>
+                        <li>AWS Lambda & API Gateway</li>
+                        <li>SQS & DynamoDB</li>
+                        <li>CloudWatch & Monitoring</li>
+                        <li>CI/CD Pipelines</li>
                     </ul>
                 </div>
                 <div class="skill-card">
                     <h3>Database & Tools</h3>
                     <ul>
-                        <li>MySQL</li>
-                        <li>Snowflake</li>
-                        <li>Git & VS Code</li>
-                        <li>MS Excel</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Methodologies & Soft Skills</h3>
-                    <ul>
-                        <li>Statistical Analysis</li>
+                        <li>MySQL & Snowflake</li>
+                        <li>Git & Version Control</li>
                         <li>Agile & SDLC</li>
-                        <li>Problem Solving</li>
-                        <li>Team Coordination</li>
+                        <li>Statistical Analysis</li>
                     </ul>
                 </div>
             </div>
@@ -148,36 +148,85 @@
 
     <section id="projects" class="projects">
         <div class="container">
-            <h2>Projects</h2>
+            <h2>Featured Projects</h2>
             <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-badge">Amazon</div>
+                    <h3>BNPL Order Recovery System</h3>
+                    <p>Architected and developed a highly resilient Buy Now Pay Later (BNPL) order recovery system using AWS Lambda and Java. Implemented sophisticated retry logic with exponential backoff, processing payment authentication updates for partners like Tabby, ValU, and Tamara across UAE, Saudi Arabia, and Egypt markets. System handles asynchronous payment confirmations with 7-tier retry strategy and feature flag-controlled gradual rollout.</p>
+                    <div class="project-highlights">
+                        <span class="highlight-item">☁️ AWS Lambda Architecture</span>
+                        <span class="highlight-item">🔄 7-Tier Retry Logic</span>
+                        <span class="highlight-item">🌍 3 Markets (UAE, KSA, Egypt)</span>
+                        <span class="highlight-item">⚡ Real-time Processing</span>
+                    </div>
+                    <div class="project-tags">
+                        <span>Java</span>
+                        <span>AWS Lambda</span>
+                        <span>SQS</span>
+                        <span>DynamoDB</span>
+                        <span>API Gateway</span>
+                        <span>Microservices</span>
+                    </div>
+                </div>
+                
+                <div class="project-card featured">
+                    <div class="project-badge">Amazon</div>
+                    <h3>Payment Processing & Checkout Optimization</h3>
+                    <p>Designed and implemented a comprehensive payment processing system for Amazon's MENAT marketplace, integrating multiple financing partners (Tabby, Tamara). Built dynamic comparison tables and processing fee calculators that increased checkout conversion by 10% and improved feature adoption by 12%.</p>
+                    <div class="project-highlights">
+                        <span class="highlight-item">📈 10% Conversion Increase</span>
+                        <span class="highlight-item">🌍 4 Countries (UAE, KSA, Egypt, Turkey)</span>
+                        <span class="highlight-item">💳 20+ Financing Plans</span>
+                    </div>
+                    <div class="project-tags">
+                        <span>Angular</span>
+                        <span>TypeScript</span>
+                        <span>REST APIs</span>
+                        <span>Payment Systems</span>
+                    </div>
+                </div>
+                
+                <div class="project-card featured">
+                    <div class="project-badge">Amazon</div>
+                    <h3>Unified Financing Offers (UFO) Platform</h3>
+                    <p>Contributed to Amazon's UFO platform, enabling seamless integration of multiple Buy Now Pay Later (BNPL) partners across international markets. Implemented vendor-funded string components and optimized mobile offer selection flows, reducing checkout errors by 10% and enhancing cross-platform reliability.</p>
+                    <div class="project-highlights">
+                        <span class="highlight-item">⚡ 20% Downtime Reduction</span>
+                        <span class="highlight-item">📱 Mobile Optimization</span>
+                        <span class="highlight-item">🔧 Production Issue Resolution</span>
+                    </div>
+                    <div class="project-tags">
+                        <span>Angular</span>
+                        <span>Java</span>
+                        <span>AWS</span>
+                        <span>CI/CD</span>
+                    </div>
+                </div>
+                
                 <div class="project-card">
+                    <div class="project-badge">Fidelity</div>
                     <h3>Data Reconciliation Engine</h3>
-                    <p>An intelligent data reconciliation system that automates manual validation processes and streamlines data workflows. Built with Django backend and Angular frontend, featuring custom SQL query execution and smart filtering capabilities for enhanced data retrieval efficiency.</p>
+                    <p>Developed an intelligent data reconciliation system that automates manual validation processes and streamlines data workflows. Built with Django backend and Angular frontend, featuring custom SQL query execution, smart filtering capabilities, and real-time data synchronization for enhanced operational efficiency.</p>
                     <div class="project-tags">
                         <span>Angular</span>
                         <span>Django</span>
                         <span>Python</span>
                         <span>SQL</span>
+                        <span>Automation</span>
                     </div>
                 </div>
+                
                 <div class="project-card">
+                    <div class="project-badge">ML Project</div>
                     <h3>Smart Railway Reservation System</h3>
-                    <p>Machine learning-based railway reservation platform that predicts ticket availability and optimizes pricing models. Features real-time updates, personalized recommendations, and intelligent seat allocation algorithms to enhance passenger booking experience.</p>
+                    <p>Machine learning-based railway reservation platform that predicts ticket availability and optimizes pricing models. Features real-time updates, personalized recommendations, and intelligent seat allocation algorithms to enhance passenger booking experience and operational efficiency.</p>
                     <div class="project-tags">
                         <span>Python</span>
                         <span>Machine Learning</span>
                         <span>Django</span>
                         <span>MySQL</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <h3>Professional Portfolio Website</h3>
-                    <p>A modern, responsive personal portfolio website showcasing professional experience, technical expertise, and project accomplishments. Features smooth animations, intuitive navigation, and mobile-first design principles.</p>
-                    <div class="project-tags">
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JavaScript</span>
-                        <span>Responsive Design</span>
+                        <span>Predictive Analytics</span>
                     </div>
                 </div>
             </div>

@@ -483,3 +483,51 @@ footer {
         align-items: stretch;
     }
 }
+
+
+/* Enhanced Project Cards */
+.project-card.featured {
+    border-left: 4px solid var(--primary-color);
+}
+
+.project-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card h3 {
+    margin-top: 0.5rem;
+}
+
+.project-card p {
+    line-height: 1.6;
+}
+
+.project-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.highlight-item {
+    background: #f0f9ff;
+    color: var(--primary-color);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid #e0f2fe;
+}
