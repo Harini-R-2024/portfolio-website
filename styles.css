@@ -5,15 +5,15 @@
 }
 
 :root {
-    --primary-color: #1e40af;
-    --secondary-color: #1e3a8a;
-    --text-dark: #1f2937;
-    --text-light: #6b7280;
-    --bg-light: #f9fafb;
+    --primary-color: #6366f1;
+    --secondary-color: #4f46e5;
+    --text-dark: #1e293b;
+    --text-light: #64748b;
+    --bg-light: #f8fafc;
     --white: #ffffff;
-    --accent: #3b82f6;
-    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+    --accent: #818cf8;
+    --shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
+    --shadow-lg: 0 8px 24px rgba(99, 102, 241, 0.12);
 }
 
 body {
@@ -85,9 +85,9 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    background: linear-gradient(135deg, #818cf8 0%, #c084fc 100%);
     color: var(--white);
-    padding: 120px 20px;
+    padding: 100px 20px 80px;
     text-align: center;
 }
 
@@ -97,18 +97,18 @@ body {
 }
 
 .highlight {
-    color: #fbbf24;
+    color: #fde047;
 }
 
 .profile-photo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid var(--white);
-    margin: 2rem auto;
+    border: 4px solid rgba(255, 255, 255, 0.9);
+    margin: 0 auto 1.5rem;
     display: block;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 .subtitle {
@@ -145,9 +145,10 @@ body {
 }
 
 .btn-secondary {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.2);
     color: var(--white);
-    border: 2px solid var(--white);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
 }
 
 /* Hero Description */
@@ -216,7 +217,7 @@ body {
     border-radius: 10px;
     box-shadow: var(--shadow);
     margin-bottom: 2rem;
-    border-left: 4px solid var(--primary-color);
+    border-left: 4px solid #818cf8;
 }
 
 .experience-header {
@@ -294,7 +295,7 @@ body {
 
 .skill-card:hover {
     transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 12px 28px rgba(99, 102, 241, 0.15);
 }
 
 .skill-card h3 {
@@ -345,7 +346,7 @@ body {
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 12px 28px rgba(99, 102, 241, 0.15);
 }
 
 .project-card h3 {
@@ -430,7 +431,7 @@ body {
 
 .contact-item:hover {
     transform: translateY(-3px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.12);
 }
 
 .contact-item .icon {
